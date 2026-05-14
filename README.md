@@ -28,6 +28,8 @@ This repository is an automated, industry-grade learning system designed to teac
 - Dev Environment Setup
 - What is Programming?
 - Growth Mindset for Engineering
+- Software Design Principles
+- How Browsers Work & Real-Time Protocols
 
 ### Concepts of Programming (Python Deep Dive)
 - Python Program Structure
@@ -54,6 +56,8 @@ This repository is an automated, industry-grade learning system designed to teac
 - Debugging
 - Git & Version Control
 - Environment & Configuration Management
+- Software Craft — Code Review & Engineering Standards
+- Package Management & Dev Tooling Hygiene
 
 ### Data Structures & Algorithms
 - Complexity Analysis
@@ -80,19 +84,29 @@ This repository is an automated, industry-grade learning system designed to teac
 - Error Handling & Validation
 - Background Tasks & Streaming
 - SQL Fundamentals
+- Database Design & Normalization
 - SQLAlchemy ORM
 - Database Migrations — Alembic
+- PostgreSQL — Production-Grade Deep Dive
+- NoSQL Databases — Mental Model & When to Choose
 - Authentication — Passwords & Hashing
 - JWT Authentication
 - RBAC — Role-Based Access Control
 - OAuth2 & SSO
 - Secrets Management
+- TLS/SSL & Certificate Management
+- Audit Logging
 - Redis & Caching
-- Message Queues & Kafka
+- Message Queues & Async Event-Driven Architecture
 - Security — OWASP Top 10 & Beyond
+- Supply Chain Security & Dependency Scanning
+- Webhooks, OpenAPI & Integration Hardening
+- Zero-Trust Architecture & Least-Privilege
 - Rate Limiting
 - PII Detection & Content Filtering
 - Docker & Containers
+- Testing Strategy — Unit, Integration & Contract
+- Load Testing & Performance Baselines
 - API Testing
 
 ### Development II: Math, Data Science & Classical ML
@@ -103,6 +117,7 @@ This repository is an automated, industry-grade learning system designed to teac
 - Pandas
 - Data Cleaning & EDA
 - Classical Machine Learning
+- Model Monitoring & Drift Detection in Production
 
 ### Development III: Deep Learning, NLP & Computer Vision
 - Neural Network Foundations
@@ -130,6 +145,11 @@ This repository is an automated, industry-grade learning system designed to teac
 - LLM Fine-Tuning
 - RLHF & Alignment
 - LLM Inference Optimization
+- RAG Evaluation — RAGAS
+- LLM Observability & Cost Tracking
+- Multi-Tenancy & Data Isolation in RAG Systems
+- Resilience Patterns for AI Pipelines
+- LLM Cost Architecture & Token Optimization
 - Agentic AI
 
 ### System Design
@@ -140,17 +160,21 @@ This repository is an automated, industry-grade learning system designed to teac
 - Database Design & Selection
 - API Design
 - Low-Level System Design
-- High-Level System Design
-- Distributed Systems Concepts
+- Distributed Systems Fundamentals
+- High-Level System Design Practice
 
 ### Deployment
 - Linux Administration (Production Basics)
 - Docker in Production
 - Kubernetes (K8s) Basics
 - CI/CD with GitHub Actions
+- Deployment Strategies & Environment Management
 - Azure Deployment Stack
+- Infrastructure as Code — Terraform
 - n8n Automation
 - Security Hardening for Production
+- Networking for Production — Reverse Proxies & Load Balancers
+- AWS Awareness — Azure-to-AWS Mental Map
 
 ### Scaling
 - Scaling Fundamentals
@@ -160,6 +184,8 @@ This repository is an automated, industry-grade learning system designed to teac
 - Kafka for Scalable Event Streaming
 - LLM Scaling
 - Content Delivery Networks (CDN)
+- Cloud Cost Optimization & FinOps
+- Performance Engineering & Profiling
 - Performance Testing & Optimization
 
 ### Logging
@@ -175,7 +201,7 @@ This repository is an automated, industry-grade learning system designed to teac
 - The Three Pillars of Observability
 - Metrics with Prometheus
 - Visualization with Grafana
-- Distributed Tracing
+- Distributed Tracing — OpenTelemetry
 - Application Performance Monitoring (APM)
 - Alerting
 - Infrastructure Monitoring
@@ -186,9 +212,17 @@ This repository is an automated, industry-grade learning system designed to teac
 - Audit Log Design
 - Implementing Audit Logging in FastAPI
 - Audit Log Storage & Retention
-- Querying & Reporting Audit Logs
+- Production Operations — Incident Response & On-Call
 - Compliance Frameworks
 - Security Incident Response
+
+### Engineering Craft, Career & Interviews
+- Data Structures & Algorithms — Interview Essentials
+- System Design Interview Framework — Practiced Under Time Pressure
+- Behavioral Interviews — STAR Method & Story Bank
+- Technical Brand, Portfolio & Visibility
+- Architecture Decision Records (ADRs) & Technical Writing
+- Engineering Estimation, Planning & Stakeholder Communication
 
 
 ## 5. Real Industry-Grade Project
