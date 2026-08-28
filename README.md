@@ -151,6 +151,9 @@ This repository is an automated, industry-grade learning system designed to teac
 - Resilience Patterns for AI Pipelines
 - LLM Cost Architecture & Token Optimization
 - Agentic AI
+- ARIA Frontend — Real-Time Chat Interface
+- GraphRAG — Knowledge-Graph-Augmented Retrieval
+- Context Engineering
 
 ### System Design
 - System Design Fundamentals
