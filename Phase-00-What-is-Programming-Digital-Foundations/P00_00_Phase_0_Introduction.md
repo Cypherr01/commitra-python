@@ -1,26 +1,37 @@
 ## Overview
-Phase 0 establishes the foundational knowledge and technical environment required to develop ARIA, an autonomous AI operating system. This phase focuses on core computing concepts, system architecture basics, and collaborative development practices to ensure learners understand the infrastructure supporting ARIA's complex capabilities. By mastering these essentials, learners will create the "chassis" upon which ARIA's advanced agentic reasoning, memory systems, and tool integrations will be built in later phases. The goal is to eliminate technical debt early, ensuring ARIA's future layers operate on robust, well-understood foundations.
+Phase 0 establishes the foundational technical literacy and development environment required to build ARIA. Learners configure their machines, master core computing concepts (hardware/software, data representation, operating systems), and set up version control and virtual environments. This phase ensures all participants share a common technical baseline before writing code, aligning with ARIA's philosophy of robust infrastructure before agentic complexity. Without this groundwork, subsequent phases risk instability or knowledge gaps in critical systems like memory management and tool integration.
 
 ## Phase Objectives
-- Understand fundamental computing concepts (hardware/software, binary systems, data representation)
-- Configure operating systems, file systems, and command-line tools for ARIA's runtime environment
-- Grasp internet protocols and networking basics for future API/agent communication
-- Set up version-controlled development environments with team collaboration standards
-- Apply software design principles to draft ARIA's modular architecture blueprints
-- Develop growth mindset practices for sustainable engineering in complex systems
+- Configure a functional Python development environment with virtual environments and Git
+- Develop fluency in core computing concepts: binary systems, data representation, OS processes, and file systems
+- Master command-line operations for dependency management and system diagnostics
+- Understand fundamental internet protocols and browser communication models
+- Write basic Python scripts for automation and system validation
+- Apply software design principles (SOLID) to prototype code
 
 ## Topic-to-Project Connection Map
 | Topic                     | Description                                                                 | Connection to ARIA — An Autonomous AI Operating System                                                                 |
 |---------------------------|-----------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| 0.1 What is a Computer?   | Map components to system needs                                              | Establish hardware/software requirements for ARIA's processing, storage, and network operations                        |
-| 0.2 Binary & Number Systems | Build binary-decimal converter utility                                     | Handle foundational data representation for system inputs and internal state management                                |
-| 0.3 Bits, Bytes & Data    | Implement data serialization functions                                     | Structure ARIA's internal communication protocols between agents and memory layers                                     |
-| 0.4 Operating System Basics | Configure OS environment variables/permissions                             | Scaffold ARIA's runtime dependencies and security sandboxing for tool execution                                        |
-| 0.5 File Systems & Directories | Design hierarchical directory structures                                   | Create conventions for persistent memory storage and tool persistence across sessions                                  |
-| 0.6 Command Line & Terminal | Script CLI automation tools                                                | Initialize virtual environments and dependency installations for ARIA's core infrastructure                           |
-| 0.7 How the Internet Works | Deploy local HTTP server for network simulation                            | Test future API integrations and inter-agent communication protocols                                                   |
-| 0.8 Dev Environment Setup | Initialize Git repository with branching strategies                        | Establish version control and collaboration workflows for ARIA development                                            |
-| 0.9 What is Programming?  | Write 'Hello World' script                                                 | Validate Python execution environment and debugging workflows for ARIA components                                      |
-| 0.10 Growth Mindset        | Establish team norms and code review templates                             | Build collaborative practices essential for ARIA's long-term iterative development                                    |
-| 0.11 Software Design Principles | Draft modular architecture diagrams                                       | Define API contracts and system boundaries for ARIA's seven-layer architecture                                        |
-| 0.12 Browsers & Real-Time Protocols | Implement WebSocket test client                                           | Prototype real
+| 0.1 What is a Computer?   | Learners establish hardware/software awareness to configure their development machine. | Ensures proper setup of systems capable of running ARIA's resource-intensive components like sandboxing and multi-model routing. |
+| 0.2 Binary & Number Systems | Learners convert decimal values to binary to understand data encoding.      | Critical for memory architecture (Layer 4) and efficient data serialization in tool communications (Layer 5).          |
+| 0.3 Bits, Bytes & Data    | Learners calculate byte sizes for data structures.                          | Directly supports memory allocation planning in ARIA's persistent storage and in-memory agent state management.         |
+| 0.4 Operating System Basics | Learners identify OS processes using system commands.                       | Enables process management for ARIA's distributed agents and dependency resolution in virtual environments.             |
+| 0.5 File Systems & Directories | Learners create hierarchical directory structures.                          | Structures ARIA's codebase, configuration files, and tool sandboxes according to layer responsibilities.                |
+| 0.6 Command Line & Terminal | Learners execute shell scripts for installations.                           | Essential for deploying ARIA components, managing Python dependencies, and troubleshooting runtime environments.         |
+| 0.7 How the Internet Works | Learners simulate HTTP requests.                                            | Foundational for designing API protocols between agents (Layer 3) and external tools (Layer 5).                         |
+| 0.8 Dev Environment Setup  | Learners initialize Git repos and virtual environments.                     | Scaffolds ARIA's project structure and isolates dependencies to prevent version conflicts during collaborative development. |
+| 0.9 What is Programming?   | Learners write scripts to automate installations.                           | Builds capability to create ARIA's configuration validators and dependency automation scripts.                          |
+| 0.10 Growth Mindset        | Learners debug setup errors iteratively.                                    | Cultivates resilience for tackling ARIA's complex engineering challenges in later phases.                               |
+| 0.11 Software Design Principles | Learners refactor code using SOLID principles.                              | Ensures maintainability and scalability in ARIA's layered architecture as complexity increases.                         |
+| 0.12 Browsers & Real-Time Protocols | Learners simulate WebSocket communications.                                 | Prototypes real-time messaging patterns for agent collaboration (Layer 3) and observability (Layer 7).                  |
+
+## Phase Outcome
+- A fully configured development environment with Python, virtual environment, and Git
+- Practical skills in terminal navigation, dependency management, and basic scripting
+- Concrete understanding of data representation impacting ARIA's memory systems
+- Prototype code demonstrating SOLID principles and HTTP/WebSocket simulations
+- Refactored code samples applying software design best practices
+- Confidence in debugging environment and setup challenges
+
+## Next Steps
+With foundational infrastructure and technical literacy secured, Phase 1 shifts focus to Python programming fundamentals. Learners will apply these basics to build simple automated systems and data structures, directly supporting ARIA's memory scaffolding (Layer 4) and tool integration groundwork (Layer 5). This progression bridges theoretical setup with practical coding for autonomous systems.
